@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Loan Calculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Reset</string>
+    <string name="homeValue">Home value</string>
+    <string name="downPayment">Down Payment</string>
+    <string name="interestRate">Interest Rate</string>
+    <string name="terms">Terms</string>
+
+    <string name="propertyTaxRate">Property tax rate</string>
+    <string name="calculate">Calculate</string>
+    <string name="reset">Reset</string>
+    <string name="operation2">Subtract</string>
+    <string name="totalTaxPaid">Total Tax Paid</string>
+    <string name="totalInterestPaid">Total Interest Paid</string>
+    <string name="monthlyPayment">Monthly Payment</string>
+    <string name="payOffDate">Pay Off Date</string>
+    <string name="term_prompt">Choose Term</string>
+    <string-array name="term_arrays">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>40</item>
+    </string-array>
+    <string name="payments">Payment</string>
+    <color name="color_primary">#3BB9FF</color>
+    <color name="textColor">#000000</color>
+</resources>
