@@ -64,20 +64,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onButtonReset(View view)
-    {
-        EditText textHomeValue = (EditText)findViewById(R.id.textHomeValue);
-        EditText textDownPayment = (EditText)findViewById(R.id.textDownPayment);
-        EditText textInterestRate = (EditText)findViewById(R.id.textInterestRate);
-         Spinner spinnerTerm = (Spinner)findViewById(R.id.spinnerTerm);
-        EditText textPropertyTaxRate = (EditText)findViewById(R.id.textPropertyTaxRate);
-        textHomeValue.setText("");
-        textDownPayment.setText("");
-        textInterestRate.setText("");
-        spinnerTerm.setSelection(0);
-        textPropertyTaxRate.setText("");
 
-    }
     public void onButtonClicked(View view)
     {
 
